@@ -1,9 +1,9 @@
 # 人工智慧期中報告
 
 ## 👤 基本資料
-班級：___  
-學號：___  
-姓名：___  
+班級：___資網四A 
+學號：___D1114181060
+姓名：___吳建廷
 
 ---
 
@@ -21,32 +21,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>可愛點擊遊戲</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial;
-            background-color: #ffe4f2;
-        }
+<meta charset="UTF-8">
+<title>可愛點擊遊戲</title>
 
-        h1 {
-            color: #ff66a3;
-        }
+<style>
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #ffe4f2;
+}
 
-        button {
-            font-size: 30px;
-            padding: 20px;
-            border-radius: 15px;
-            background-color: #ff99cc;
-            border: none;
-            cursor: pointer;
-        }
+h1 {
+    color: #ff66a3;
+}
 
-        button:hover {
-            background-color: #ff66a3;
-        }
-    </style>
+button {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ff99cc;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff66a3;
+}
+</style>
+
 </head>
 
 <body>
@@ -77,7 +79,8 @@ let timer = setInterval(function () {
 
     if (time <= 0) {
         clearInterval(timer);
-        document.getElementById("result").innerText = "遊戲結束！你的分數：" + score;
+        document.getElementById("result").innerText =
+            "遊戲結束！你的分數：" + score;
     }
 }, 1000);
 </script>
