@@ -8,7 +8,7 @@
 ---
 
 ## 🎮 遊戲畫面
-（之後放截圖）
+<img width="1918" height="944" alt="螢幕擷取畫面 2026-04-21 152124" src="https://github.com/user-attachments/assets/b5f48ded-27c4-43ff-aa11-fcee4b050747" />
 
 ---
 
